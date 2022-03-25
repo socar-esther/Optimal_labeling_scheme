@@ -2,7 +2,7 @@
 
 ## How to Run
 ```python
-$ python train.py --learning_rate 0.01 \
+$ python main.py --learning_rate 0.01 \
                   --train_root [TRAIN_DATASET_ROOT] \ 
                   --test_root [TEST_DATA_ROOT] \ 
                   --n_class 10 \
