@@ -11,3 +11,9 @@ $ python train.py --learning_rate 0.01 \
 ```
 - OOD detection code : https://github.com/socar-esther/cvprw_Optimal_labeling_scheme/blob/main/notebook/ood.ipynb
 
+
+
+## TODO
+[ ] Check OOD detection notebook (commit new version of code, this version is scratch)
+
+
