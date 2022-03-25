@@ -15,5 +15,6 @@ $ python train.py --learning_rate 0.01 \
 
 ## TODO
 - [ ] Check OOD detection notebook (commit new version of code, this version is scratch)
+- [ ] Add model checkpoint 
 
 
