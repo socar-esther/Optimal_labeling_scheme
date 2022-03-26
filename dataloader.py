@@ -25,8 +25,6 @@ def get_datasets(train_root, test_root) :
     # get datasets
     train_transforms_option = transforms.Compose([
                         transforms.Resize((32, 32)),
-                        transforms.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4),
-                        transforms.RandomHorizontalFlip(),
                         transforms.ToTensor(),
                         transforms.Normalize([0.5071, 0.4867, 0.4408], [0.2675, 0.2565, 0.2761])
                     ])
