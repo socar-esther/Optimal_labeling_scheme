@@ -26,8 +26,8 @@ $ python transferability_main.py --learning_rate 0.01 \
 
 
 ## TODO
-- [ ] Check OOD detection notebook, CKA script (commit new version of code, this version is scratch)
-- [ ] Add model checkpoint 
+- [x] Check OOD detection notebook
+- [x] Add model checkpoint 
 
 
 
