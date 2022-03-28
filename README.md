@@ -29,9 +29,6 @@ $ python transferability_main.py --learning_rate 0.01 \
 ## labeling scheme and ood weights
 $ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0302.zip . 
 
-## multi-label classification weights
-$ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0304.zip .
-
 ## transfered downstream weights
 $ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0317.zip .
 ```
