@@ -24,6 +24,17 @@ $ python transferability_main.py --learning_rate 0.01 \
 - OOD detection code : [./notebook/ood.ipynb](https://github.com/socar-esther/cvprw_Optimal_labeling_scheme/blob/main/notebook/ood.ipynb)
 
 
+## Model checkpoints
+```python
+## labeling scheme and ood weights
+$ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0302.zip . 
+
+## multi-label classification weights
+$ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0304.zip .
+
+## transfered downstream weights
+$ gsutil cp gs://socar-data-temp/esther/labeling_scheme/checkpoint_0317.zip .
+```
 
 ## TODO
 - [x] Check OOD detection notebook
