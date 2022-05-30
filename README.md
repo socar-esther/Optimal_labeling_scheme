@@ -1,4 +1,4 @@
-# Towards a Qualified Representation: Does a Good Vision Dataset Require Both Shape and Texture Bias Simultaneously?
+# Shape prior is Not All You Need: Discovering Balance between Texture and Shape bias in CNN
 
 ## How to Run
 ```python
