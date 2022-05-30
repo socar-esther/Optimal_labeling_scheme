@@ -19,12 +19,8 @@ def get_model(args) :
 
 
 def get_dataloader(args, shape_pair_list, texture_pair_list) :
-    if args.dataset == 'stylized_cifar10' :
-        dataset = CIFAR10(args, shape_pair_list, texture_pair_list)
-    else : 
-        raise NotImplementedError(f'[INFO] check the implementation of the set {dataset}')
-    dataloader = DataLoader(dataset, args.batch_size, shuffle = False, num_workers = args.num_workers,
-                           pin_memory = True)
+    dataset = CIFAR10(args, shape_pair_list, texture_pair_list)
+    dataloader = DataLoader(dataset, args.batch_size, shuffle = False, num_workers = args.num_workers, pin_memory = True)
     return dataloader
 
 
