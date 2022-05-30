@@ -85,7 +85,7 @@ def main() :
         train_datasets, train_loader, test_datasets, test_loader = get_datasets(train_path, test_path)
 
         # model
-        model = resnet50(pretrained = False)
+        model = resnet50(pretrained = True)
         num_ftrs = model.fc.in_features
         model.fc = nn.Linear(num_ftrs, opt.n_class)
 
