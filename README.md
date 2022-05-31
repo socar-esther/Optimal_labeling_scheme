@@ -35,6 +35,11 @@ $ python transferability_main.py --learning_rate 0.01 \
                                  --lr_decay_epochs '60,80,100,120,140,160,180'
 ```
 
+## Usage
+**Stylized CIFAR-10 Preparation**
+- Download the CIFAR-10 dataset from [official website](https://www.cs.toronto.edu/~kriz/cifar.html)
+- Get style images (paintings). Download train.zip file from [Kaggles' painter-by-numbers Dataset](https://www.kaggle.com/c/painter-by-numbers/data)
+
 
 
 ## Model checkpoints
